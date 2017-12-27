@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:src="@drawable/rsz_1inter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#17eb2727"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/text1"
+            android:text="@string/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:fontFamily="cursive"
+            android:textColor="@color/text"
+            android:shadowColor="#af4e42f4"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/textPadding" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:text="@string/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:fontFamily="cursive"
+            android:textColor="@color/text"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:text="@string/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSize"
+            android:fontFamily="cursive"
+            android:textColor="@color/text"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/textPadding"  />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text4"
+        android:textSize="@dimen/textSize"
+        android:layout_marginBottom="20dp"
+        android:textColor="#af7a8703"
+        />
+
+</RelativeLayout>
