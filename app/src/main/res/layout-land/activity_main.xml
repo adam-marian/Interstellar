@@ -31,7 +31,7 @@
             android:textColor="@color/text"
             android:shadowColor="#af4e42f4"
             android:layout_gravity="center_horizontal"
-            android:padding="@dimen/textPadding" />
+            android:padding="@dimen/landTextPadding" />
 
         <TextView
             android:id="@+id/text2"
@@ -52,19 +52,36 @@
             android:fontFamily="cursive"
             android:textColor="@color/text"
             android:layout_gravity="center_horizontal"
-            android:padding="@dimen/textPadding"  />
+            android:padding="@dimen/landTextPadding"  />
 
     </LinearLayout>
 
+
+
     <TextView
+        android:id="@+id/text5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/text4"
+        android:text="@string/text5"
         android:textSize="@dimen/textSize"
-        android:layout_marginBottom="20dp"
-        android:textColor="#af7a8703"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="@dimen/textPadding"
+        android:textColor="@color/text2"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text5"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text4"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/text2"
         />
 
 </RelativeLayout>
