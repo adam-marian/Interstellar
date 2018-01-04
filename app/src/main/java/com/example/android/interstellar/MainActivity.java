@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView stationImage = (ImageView) findViewById(R.id.station);
         stationImage.setBackgroundResource(R.drawable.frames);
         stationAnimation = (AnimationDrawable) stationImage.getBackground();
+
     }
 
     public boolean onTouchEvent(MotionEvent event) {

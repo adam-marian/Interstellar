@@ -7,4 +7,5 @@
     <dimen name="textPadding">10dp</dimen>
     <dimen name="landTextPadding">5dp</dimen>
     <dimen name="textMargin">30dp</dimen>
+    <dimen name="imageSize">270dp</dimen>
 </resources>

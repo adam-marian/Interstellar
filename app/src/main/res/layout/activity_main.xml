@@ -6,13 +6,19 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/station"
-        android:src="@drawable/rsz_1inter"
+        android:src="@drawable/rsz_2inter"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"
          />
+    <ImageView
+        android:id="@+id/station"
+        android:background="@drawable/frames"
+        android:layout_width="@dimen/imageSize"
+        android:layout_height="@dimen/imageSize"
+        android:layout_centerHorizontal="true"
+        />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
